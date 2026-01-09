@@ -1,0 +1,105 @@
+# ============================
+# OS / Editor / IDE files
+# ============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================
+# Python cache / bytecode
+# ============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ============================
+# Virtual environments
+# ============================
+
+# Common virtualenv folders
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# ============================
+# Python packaging
+# ============================
+
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================
+# Django specific
+# ============================
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media / uploaded files
+media/
+# Static files collected
+staticfiles/
+
+# Django local settings / environment
+local_settings.py
+.env
+.env.*
+
+# Logs
+*.log
+
+# ============================
+# Tests / Coverage
+# ============================
+
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ============================
+# PyInstaller / Executables
+# ============================
+
+*.exe
+*.dll
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ============================
+# Others / temporary
+# ============================
+
+*.bak
+*.swp
+*.tmp
+*.old
